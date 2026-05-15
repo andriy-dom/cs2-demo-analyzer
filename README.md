@@ -76,6 +76,27 @@ venv\Scripts\python main.py
 | `totalKills` | Число убийств после фильтрации |
 | `suspiciousMoments` | Найдено подозрительных моментов |
 
+### Поля `moments[]`
+
+```json
+{
+  "type": "possible_bad_peek",
+  "mapName": "de_mirage",
+  "round": 3,
+  "attacker": "IceBerg",
+  "attackerTeam": "CT",
+  "victims": ["n0te", "joeski"],
+  "victimTeam": "T",
+  "firstKillClock": "1:08",
+  "secondKillClock": "1:07",
+  "timeBetweenKills": 1.66,
+  "distanceBetweenVictims": 161.5,
+  "weapons": ["m4a1_silencer", "m4a1_silencer"],
+  "headshots": [false, false],
+  "killDistances": [19.2, 15.8]
+}
+```
+
 
 ## Логика детекции
 
